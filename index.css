@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.header{
+  text-align: center;
+  color: aliceblue;
+  background-color: blueviolet;
+  border: 2px solid darkblue;
+  box-shadow: 2px 2px 2px darkblue;
+  font-size: 24px;
+
+}
+.links{
+  color: darkkhaki;
+}
+.links:hover{
+  color: white;
+}
+
+.footer{
+  text-align: center;
+  color: aliceblue;
+  background-color: blueviolet;
+  border: 2px solid darkblue;
+  /* box-shadow: 2px 2px 2px darkblue; */
+  font-size: 24px;
+  margin-top: 70vh;
+  position: static;
+
+}
+.left{
+  
+    color: black;
+    background-color: aliceblue;
+  
+    border: 2px solid darkblue;
+    box-shadow: 2px 2px 2px darkblue;
+    font-size: 24px;
+    /* display: inline-block; */
+    width: 35vw;
+    height: 40vh;
+    margin-left: 10vw;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+
+
+  float: left;
+}
+.right{
+
+  color: black;
+  background-color: aliceblue;
+  border: 2px solid darkblue;
+  box-shadow: 2px 2px 2px darkblue;
+  font-size: 24px;
+  float: right;
+  width: 35vw;
+  height: 40vh;
+  margin-right: 10vw;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  /* display: inline-block; */
+
+
+
+}
+.addac{
+  background-color:green;
+  color: aliceblue;
+  float: right;
+  margin-top: 2px;
+  margin-right: 20px;
+  height: 4vh;
+  border-radius: 5px;
+
+
+}
+.veiw{
+  background-color: lightgreen;
+  color: black;
+  float: right;
+  margin-top: 2px;
+  border-radius: 5px;
+
+
+}
+.detail{
+  text-align: center;
+  position: relative;
+  font-size: 70%;
+}
+body{
+  background-color: azure;
+}
+
+.tab{
+  /* margin: 100px auto 100px 400px; */
+  display: inline-block;
+  width: 80vw;
+  margin-left: 10vh;
+  /* box-sizing: 1000px; */
+
+
+
+
+}
+td,th{
+  width: 20vw;
+  font-size: 150%;
+  font-family: cursive;
+}
+th{
+  background-color: antiquewhite;
+}
+.input{
+  width: 20vw;
+  height: 5vh;
+  font-size: 100%;
+}
